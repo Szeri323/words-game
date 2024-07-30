@@ -1,0 +1,51 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1em;
+}
+.container {
+    margin: 1em auto;
+    width: 50%;
+}
+.task {
+    font-size: 3rem;
+}
+.tile {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: #333;
+    border-radius: 8px;
+    color: #ddd;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: blue; */
+}
+
+.win {
+    font-size: 6rem;
+    color: green;
+    font-weight: bold;
+}
+
+.gray {
+    color: #656565;
+}
+
+/* Additional keyboard color efekt
+.neon {
+    background-color: blue;
+    height: 105%;
+    width: 105%;
+    position: absolute;
+    z-index: -1;
+    filter: blur(10px);
+} */
